@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    border: 1px solid rgb(143, 143, 143);
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    padding: 1em;
+    border-spacing: .5em;
+    font-family: 'Abel', sans-serif;
+}
+
+.container td{
+    border: 1px solid rgb(143, 143, 143);
+    text-align: center;
+    cursor: pointer;
+}
+
+.container td:hover{
+    background-color: #e6e6e6;
+}
+
+#result{
+    text-align: right;
+    padding-right: 2em;
+}
+
+#math-operations td{
+    background-color: #c7c7c7;
+}
+
+#math-operations td:hover{
+    background-color: #e4e4e4;
+}
+
+#equal{
+    background-color: rgb(7, 106, 255);
+    border-color: rgb(7, 106, 255);;
+    color: #fff;
+
+}
+
+#equal:hover{
+    background-color: rgb(41, 126, 253);
+}
